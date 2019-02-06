@@ -1,0 +1,86 @@
+body{
+    background-color: #CCCFE0;   
+}
+.nomprenom{
+    padding-left: 45px;
+}
+.div_tot{
+    margin-left: 245px;
+    margin-right: 95px;
+    border: 10px inset #CD5C5C;
+}
+ul {
+    
+}
+li {
+  /*float: left;*/
+}
+.ref{
+    position: fixed !important;
+    display: block;
+    color: black;
+   /* text-align: center;*/
+    padding: 0px 0px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+li a {
+ 
+}
+
+li a:hover:not(.active) {
+  background-color: #E9967A;
+}
+
+.active {
+  background-color: #E9967A;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  /*background-color: red;*/
+}
+.titre{
+                /*margin-left: 0px;
+                /*border: 1px solid ;*/
+                /*border-radius: 25px;*/
+                /*background-color: #D7DFDE;*/
+                font-family: sans-serif;
+                color:black;
+                text-align: center;
+                padding: 10px;
+                margin: 30px;           
+            }
+            
+.mdl-slidermdl-js-slider{
+    margin-left: 25%;
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: auto; /* Défini la postion de la barre en haut */
+    z-index: auto; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 30vw;
+    height: 50px;/* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran*/ 
+}
+.forme{
+    background-color: #E9967A;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.infos{
+    
+    margin-left: 15px;
+    color: black;
+    text-align:left;
+    font-size: larger;
+    font-family: sans-serif;
+   /* background-color: #FFFFFF;*/
+}
+.formation{
+   /* text-decoration:underline;
+    background-color: #CDF1E8;*/
+     color: black;
+     font-size: medium;
+      font-style: normal; 
+}
